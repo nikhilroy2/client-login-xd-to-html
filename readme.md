@@ -15,4 +15,23 @@
     <li>
         <a href="http://127.0.0.1:5500/client_page_staff_browsing_page.html">http://127.0.0.1:5500/client_page_staff_browsing_page.html</a>
     </li>
+    <li>
+        <a href="http://127.0.0.1:5500/client_page_company_information_browsing_page.html">http://127.0.0.1:5500/client_page_company_information_browsing_page.html</a>
+    </li>
+    <li>
+        <a href="http://127.0.0.1:5500/client_page_company_information_browsing_page.html">http://127.0.0.1:5500/client_page_company_information_browsing_page.html</a>
+    </li>
+    <li>
+        <a href="http://127.0.0.1:5500/client_page_new_staff_registration.html">http://127.0.0.1:5500/client_page_new_staff_registration.html</a>
+    </li>
+    <li>
+        <a href="http://127.0.0.1:5500/client_page_staff_edit.html">http://127.0.0.1:5500/client_page_staff_edit.html</a>
+    </li>
+    <li>
+        <a href="http://127.0.0.1:5500/client_page_company_information_browsing_page.html">http://127.0.0.1:5500/client_page_company_information_browsing_page.html</a>
+    </li>
+    <li>
+        <a href="http://127.0.0.1:5500/client_page_edit_company_information.html">http://127.0.0.1:5500/client_page_edit_company_information.html</a>
+    </li>
+    
 </ol>

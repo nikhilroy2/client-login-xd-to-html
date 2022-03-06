@@ -89,6 +89,12 @@
       @media (max-width: 600px) {
         padding: 0.5rem 0.7rem;
       }
+      &.form_control_600{
+        width: 60rem;
+        @media (max-width: 1199px){
+          width: 100%;
+        }
+      }
     }
     .w_200 {
       width: 20rem;

@@ -91,6 +91,12 @@
 
 .csv_content_wrapper {
   font-family: yugothib;
+  &.mb_64{
+    margin-bottom: 6.4rem;
+    @media (max-width: 600px){
+      margin-bottom: 2rem;
+    }
+  }
   .csv_upload_wrapper {
     > * {
       margin-bottom: 1.6rem;

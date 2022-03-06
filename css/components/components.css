@@ -133,6 +133,16 @@
   font-family: yugothib;
 }
 
+.csv_content_wrapper.mb_64 {
+  margin-bottom: 6.4rem;
+}
+
+@media (max-width: 600px) {
+  .csv_content_wrapper.mb_64 {
+    margin-bottom: 2rem;
+  }
+}
+
 .csv_content_wrapper .csv_upload_wrapper > * {
   margin-bottom: 1.6rem;
   margin-right: 1.6rem;

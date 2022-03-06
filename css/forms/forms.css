@@ -113,6 +113,16 @@
   }
 }
 
+.form_container .form_table .form-control.form_control_600 {
+  width: 60rem;
+}
+
+@media (max-width: 1199px) {
+  .form_container .form_table .form-control.form_control_600 {
+    width: 100%;
+  }
+}
+
 .form_container .form_table .w_200 {
   width: 20rem;
 }

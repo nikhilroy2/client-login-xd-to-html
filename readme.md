@@ -13,12 +13,6 @@
         <a href="https://client-login-xd-to-html.netlify.app/client_page_staff_management.html">https://client-login-xd-to-html.netlify.app/client_page_staff_management.html</a>
     </li>
     <li>
-        <a href="https://client-login-xd-to-html.netlify.app/client_page_staff_browsing_page.html">https://client-login-xd-to-html.netlify.app/client_page_staff_browsing_page.html</a>
-    </li>
-    <li>
-        <a href="https://client-login-xd-to-html.netlify.app/client_page_company_information_browsing_page.html">https://client-login-xd-to-html.netlify.app/client_page_company_information_browsing_page.html</a>
-    </li>
-    <li>
         <a href="https://client-login-xd-to-html.netlify.app/client_page_company_information_browsing_page.html">https://client-login-xd-to-html.netlify.app/client_page_company_information_browsing_page.html</a>
     </li>
     <li>

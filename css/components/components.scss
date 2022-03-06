@@ -147,7 +147,7 @@
     height: 4rem;
     min-width: 10rem;
     box-shadow: 0px 2px 0px var(--text-c0);
-    &.mr_3{
+    &.mr_3 {
       margin-right: 3.2rem;
     }
   }
@@ -157,9 +157,9 @@
     height: 4rem;
     min-width: 10rem;
     box-shadow: 0px 2px 0px var(--text-93);
-    &.ml_6{
+    &.ml_6 {
       margin-left: 1.6rem;
-      @media (max-width: 571px){
+      @media (max-width: 571px) {
         margin-left: 0px;
       }
     }
@@ -590,6 +590,70 @@
   }
 }
 
+.staff_list_table_wrapper {
+  font-family: yugothib;
+  .staff_table {
+    $border: 1px solid var(--text-cc);
+    border: $border;
+    border-right: none;
+    thead {
+      font-size: 1.6rem;
+      th {
+        background: var(--text-83);
+        border-right: $border;
+        vertical-align: middle;
+        text-align: center;
+        color: var(--text-white);
+        padding-left: 1rem;
+        padding-right: 1rem;
+        white-space: nowrap;
+      }
+      .rows_1 {
+        th {
+          &:nth-child(1),
+          &:nth-child(2) {
+            width: 3.8rem;
+          }
+          &:nth-child(3) {
+            width: 14.1rem;
+          }
+          &:nth-child(4) {
+            width: 31.8rem;
+          }
+          &:nth-child(5) {
+            width: 8.8rem;
+          }
+          &:nth-child(6) {
+            width: 37.6rem;
+          }
+          &:nth-child(7) {
+            width: 16rem;
+          }
+        }
+      }
+      .rows_2 {
+        th {
+          background: var(--text-e8);
+          color: var(--text-black);
+        }
+      }
+    }
+    tbody {
+      td {
+        white-space: nowrap;
+        font-size: 1.4rem;
+        text-align: center;
+        border-bottom: $border;
+        border-right: $border;
+        &.pl_min {
+          @media (min-width: 768px) {
+            padding-left: 3.8rem;
+          }
+        }
+      }
+    }
+  }
+}
 // ....................Table Components ........................End
 
 // .....................Card Components .........................
@@ -1009,6 +1073,9 @@
 // ..........................Pagination ..................
 .pagination_wrapper {
   margin-bottom: 2.4rem;
+  &.mb_page_foot{
+    margin-bottom: 3.4rem;
+  }
   .pagination_list {
     justify-content: center;
     li {
@@ -1017,7 +1084,7 @@
       color: var(--text-48);
       border: 1px solid var(--text-e2);
       font-size: 1.4rem;
-     
+
       &:first-child {
         margin-right: 1rem;
       }

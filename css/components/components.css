@@ -808,6 +808,73 @@
   }
 }
 
+.staff_list_table_wrapper {
+  font-family: yugothib;
+}
+
+.staff_list_table_wrapper .staff_table {
+  border: 1px solid var(--text-cc);
+  border-right: none;
+}
+
+.staff_list_table_wrapper .staff_table thead {
+  font-size: 1.6rem;
+}
+
+.staff_list_table_wrapper .staff_table thead th {
+  background: var(--text-83);
+  border-right: 1px solid var(--text-cc);
+  vertical-align: middle;
+  text-align: center;
+  color: var(--text-white);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  white-space: nowrap;
+}
+
+.staff_list_table_wrapper .staff_table thead .rows_1 th:nth-child(1), .staff_list_table_wrapper .staff_table thead .rows_1 th:nth-child(2) {
+  width: 3.8rem;
+}
+
+.staff_list_table_wrapper .staff_table thead .rows_1 th:nth-child(3) {
+  width: 14.1rem;
+}
+
+.staff_list_table_wrapper .staff_table thead .rows_1 th:nth-child(4) {
+  width: 31.8rem;
+}
+
+.staff_list_table_wrapper .staff_table thead .rows_1 th:nth-child(5) {
+  width: 8.8rem;
+}
+
+.staff_list_table_wrapper .staff_table thead .rows_1 th:nth-child(6) {
+  width: 37.6rem;
+}
+
+.staff_list_table_wrapper .staff_table thead .rows_1 th:nth-child(7) {
+  width: 16rem;
+}
+
+.staff_list_table_wrapper .staff_table thead .rows_2 th {
+  background: var(--text-e8);
+  color: var(--text-black);
+}
+
+.staff_list_table_wrapper .staff_table tbody td {
+  white-space: nowrap;
+  font-size: 1.4rem;
+  text-align: center;
+  border-bottom: 1px solid var(--text-cc);
+  border-right: 1px solid var(--text-cc);
+}
+
+@media (min-width: 768px) {
+  .staff_list_table_wrapper .staff_table tbody td.pl_min {
+    padding-left: 3.8rem;
+  }
+}
+
 .menu_card_wrapper {
   margin-bottom: 10rem;
 }
@@ -1361,6 +1428,10 @@
 
 .pagination_wrapper {
   margin-bottom: 2.4rem;
+}
+
+.pagination_wrapper.mb_page_foot {
+  margin-bottom: 3.4rem;
 }
 
 .pagination_wrapper .pagination_list {

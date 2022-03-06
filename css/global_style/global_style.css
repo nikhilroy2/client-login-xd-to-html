@@ -53,11 +53,12 @@
   --text-a9: #a9a9a9;
   --text-100: #ffb100;
   --text-e2: #e2e2e2;
-  --text-e8: #E8E8E8;
+  --text-e8: #e8e8e8;
   --text-a5: #a5a5a5;
-  --text-8e: #16348E;
-  --text-1e: #FF771E;
-  --text-c0: #983C00;
+  --text-8e: #16348e;
+  --text-1e: #ff771e;
+  --text-c0: #983c00;
+  --text-83: #838383;
 }
 
 body {
@@ -442,6 +443,16 @@ footer .footer_copyright {
 @media (max-width: 600px) {
   footer .footer_copyright {
     margin-top: 2rem;
+  }
+}
+
+footer .footer_copyright.mt_sm {
+  margin-top: 1.6rem;
+}
+
+@media (max-width: 600px) {
+  footer .footer_copyright.mt_sm {
+    margin-top: 1rem;
   }
 }
 /*# sourceMappingURL=global_style.css.map */

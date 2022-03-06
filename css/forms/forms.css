@@ -69,7 +69,7 @@
 
 .form_container .form-group .form-control.h_40_sizer {
   height: 4rem;
-  padding: .8rem 1.2rem;
+  padding: 0.8rem 1.2rem;
   font-size: 1.8rem;
 }
 
@@ -147,6 +147,12 @@
   color: var(--text-89);
 }
 
+@media (min-width: 1200px) {
+  .form_container .form_table.form_table_td_sizer td:nth-child(odd) {
+    padding-right: 9.4rem !important;
+  }
+}
+
 .form_container tr td:first-child {
   padding-left: 0px;
   padding-right: 4.1rem;
@@ -154,7 +160,7 @@
 
 @media (max-width: 600px) {
   .form_container tr td:first-child {
-    padding-right: .5rem;
+    padding-right: 0.5rem;
   }
 }
 
@@ -170,7 +176,7 @@
 
 @media (max-width: 600px) {
   .form_container tr td {
-    padding: 1rem .5rem;
+    padding: 1rem 0.5rem;
     padding-bottom: 0.4rem;
     font-size: 1.2rem;
   }

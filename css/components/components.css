@@ -370,6 +370,22 @@
   }
 }
 
+.btn_dark.content_mb_100 {
+  margin-bottom: 10rem;
+}
+
+@media (max-width: 1199px) {
+  .btn_dark.content_mb_100 {
+    margin-bottom: 6rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .btn_dark.content_mb_100 {
+    margin-bottom: 3rem;
+  }
+}
+
 .btn_dark.btn_mt {
   margin-top: 6.4rem;
 }

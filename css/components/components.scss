@@ -266,6 +266,16 @@
       margin-bottom: 2rem;
     }
   }
+  &.content_mb_100 {
+    margin-bottom: 10rem;
+    @media (max-width: 1199px) {
+      margin-bottom: 6rem;
+    }
+    @media (max-width: 600px) {
+      margin-bottom: 3rem;
+    }
+  }
+
   &.btn_mt {
     margin-top: 6.4rem;
     @media (max-width: 600px) {

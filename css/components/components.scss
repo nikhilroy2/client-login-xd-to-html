@@ -645,13 +645,47 @@
         text-align: center;
         border-bottom: $border;
         border-right: $border;
-        &.date_col{
+        &.date_col {
           color: var(--text-2f);
         }
         &.pl_min {
           @media (min-width: 768px) {
             padding-left: 3.8rem;
           }
+        }
+      }
+    }
+  }
+}
+
+.two_col_table_static_wrapper {
+  margin-bottom: 7.4rem;
+  table {
+    font-size: 1.6rem;
+    color: var(--text-black);
+    font-family: yugothib;
+    $border: 1px solid var(--text-cc);
+    border: $border;
+    tbody {
+      td:nth-child(1) {
+        text-align: center;
+        width: 16rem;
+        background: var(--text-e8);
+        border-bottom: $border;
+        font-weight: bold;
+        @media (max-width: 600px) {
+          width: 12rem;
+        }
+      }
+      td:nth-child(2) {
+        padding-left: 22rem;
+        border-bottom: $border;
+        font-weight: normal;
+        font-size: 1.4rem;
+        @media (max-width: 600px) {
+          padding-left: 1rem;
+          padding-right: 1rem;
+          text-align: center;
         }
       }
     }
@@ -1076,7 +1110,7 @@
 // ..........................Pagination ..................
 .pagination_wrapper {
   margin-bottom: 2.4rem;
-  &.mb_page_foot{
+  &.mb_page_foot {
     margin-bottom: 3.4rem;
   }
   .pagination_list {

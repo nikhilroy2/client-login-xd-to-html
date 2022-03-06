@@ -869,6 +869,10 @@
   border-right: 1px solid var(--text-cc);
 }
 
+.staff_list_table_wrapper .staff_table tbody td.date_col {
+  color: var(--text-2f);
+}
+
 @media (min-width: 768px) {
   .staff_list_table_wrapper .staff_table tbody td.pl_min {
     padding-left: 3.8rem;

@@ -645,6 +645,9 @@
         text-align: center;
         border-bottom: $border;
         border-right: $border;
+        &.date_col{
+          color: var(--text-2f);
+        }
         &.pl_min {
           @media (min-width: 768px) {
             padding-left: 3.8rem;

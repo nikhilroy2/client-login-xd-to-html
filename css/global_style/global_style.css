@@ -55,6 +55,9 @@
   --text-e2: #e2e2e2;
   --text-e8: #E8E8E8;
   --text-a5: #a5a5a5;
+  --text-8e: #16348E;
+  --text-1e: #FF771E;
+  --text-c0: #983C00;
 }
 
 body {
@@ -367,7 +370,7 @@ footer {
   padding-top: 6.4rem;
   padding-bottom: 3.9rem;
   color: var(--text-white);
-  font-family: yyugothibu;
+  font-family: yugothibu;
 }
 
 @media (min-width: 768px) {

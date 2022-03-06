@@ -227,8 +227,6 @@
         <section>
             <div class="csv_content_wrapper">
                 <div class="section_container container_left_helper container_right_helper">
-
-
                     <div class="section_title section_title_sub  title_padding ">
                         <div class="d-flex align-items-center justify-content-between">
                             <h3 class="mb-0">
@@ -257,13 +255,132 @@
                                 }
                             </script>
                         </div>
+                        <div class="csv_content_wrapper">
+                            <div class="content_title">
+                                <h3 class="size_2 mb-0">
+                                    CSVデータを指定したカテゴリーにインポートまたは上書きします。
+                                </h3>
+                            </div>
+                            <div class="content_body">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        ・CSV形式のファイル（カンマ区切りデータ）をエントリーと、エントリーのカスタムフィールドに変換してインポートします。
+                                    </li>
+                                    <li>
+                                        ・CSVファイルに、カスタムフィールドの情報のみが含まれる場合は、エントリー情報は自動で作成されます。
+                                    </li>
+                                    <li>
+                                        ・CSVにidをしているすことで既存のエントリーに上書きすることができます。
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="content_footer">
+                                <button class="btn_primary min_sizer">
+                                    インポートを実行する
+                                </button>
+                            </div>
+                        </div>
                     </div>
-
                 </div>
             </div>
+        </section>
+        <section>
+            <div class="section_container container_left_helper container_right_helper">
+                <div class="section_title section_title_sub title_padding ">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <h3 class="mb-0">
+                            スタッフ登録情報一覧
+                        </h3>
+                    </div>
+                </div>
+                <div class="section_body">
+                    <div class="staff_list_table_wrapper">
+                        <div class="table_header_wrapper">
+                            <div class="row gy-3 gy-lg-0">
+                                <div class="col-lg-6">
+                                    <div class="col_wrapper">
+                                        <div class="form_container d-flex flex-wrap flex-sm-nowrap  align-items-center">
+                                            <button class="btn_be_action mb-3 mb-sm-0 text-nowrap action_orange mr_3">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    viewBox="0 0 16 16">
+                                                    <g id="Group_196" data-name="Group 196"
+                                                        transform="translate(-191 -369)">
+                                                        <circle id="Ellipse_7" data-name="Ellipse 7" cx="8" cy="8" r="8"
+                                                            transform="translate(191 369)" fill="#fff" />
+                                                        <path id="Icon_awesome-plus" data-name="Icon awesome-plus"
+                                                            d="M7.429,5.393H4.857V2.821a.571.571,0,0,0-.571-.571H3.714a.571.571,0,0,0-.571.571V5.393H.571A.571.571,0,0,0,0,5.964v.571a.571.571,0,0,0,.571.571H3.143V9.679a.571.571,0,0,0,.571.571h.571a.571.571,0,0,0,.571-.571V7.107H7.429A.571.571,0,0,0,8,6.536V5.964A.571.571,0,0,0,7.429,5.393Z"
+                                                            transform="translate(195 370.75)" fill="#ff771e" />
+                                                    </g>
+                                                </svg>
+                                                登録
+                                            </button>
+                                            <h5 class="default_16 text-nowrap mb-3 mb-sm-0 font-weight-bold yugothibu me-4">
+                                                選択行の
+                                            </h5>
 
+                                            <div class="form-group position-relative w-100 mb-3 mb-sm-0">
+                                                <select name="" id="`" class="form-control w-100 h_40_sizer">
+                                                    <option value="年">選択してくだい</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                </select>
+                                                <svg class="select_icon position-absolute"
+                                                    style="top: 50%; transform: translateY(-50%); right: .8rem"
+                                                    xmlns="http://www.w3.org/2000/svg" width="8.781" height="6.12"
+                                                    viewBox="0 0 8.781 6.12">
+                                                    <path id="Path_137" data-name="Path 137"
+                                                        d="M7219.936,610.665l4.155,5,3.845-5"
+                                                        transform="translate(-7219.551 -610.345)" fill="none"
+                                                        stroke="#0d0101" stroke-width="1" />
+                                                </svg>
+                                            </div>
 
-
+                                            <button class="btn_be_action action_primary mb-3 mb-sm-0 text-nowrap ml_6">
+                                                登録
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="col_wrapper">
+                                        <div class="pagination_wrapper">
+                                            <ul class="pagination_list list-unstyled d-flex flex-wrap justify-content-end">
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fas fa-angle-left    "></i>
+                                                    </a>
+                                                </li>
+                                                <li style="background: var(--text-e2)">
+                                                    <a href="#">1</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">2</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">3</a>
+                                                </li>
+                        
+                                                <li class="list_dots">
+                                                    ...
+                                                </li>
+                                                <li>
+                                                    <a href="#">10</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fas fa-angle-right    "></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table_body_wrapper"></div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <!-- .................................Main..................................End -->

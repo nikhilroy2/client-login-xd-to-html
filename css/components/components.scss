@@ -92,12 +92,28 @@
 .csv_content_wrapper {
   font-family: yugothib;
   .csv_upload_wrapper {
-    margin-bottom: 1.6rem;
     > * {
+      margin-bottom: 1.6rem;
       margin-right: 1.6rem;
     }
-    .csv_uploader_output{
+    .csv_uploader_output {
       font-weight: normal;
+    }
+  }
+  .csv_content_wrapper {
+    .content_title {
+      background: var(--text-a5);
+      color: var(--text-white);
+      padding: 1rem 2.4rem;
+    }
+    .content_body {
+      border: 1px solid var(--text-a5);
+      ul {
+        padding: 1.3rem 2.4rem 1.3rem 2.4rem;
+        font-size: 1.6rem;
+        line-height: 3rem;
+      }
+      margin-bottom: 1.6rem;
     }
   }
 }
@@ -124,6 +140,29 @@
     outline: none;
     border-radius: none;
     box-shadow: none;
+  }
+  &.action_orange {
+    background: var(--text-1e);
+    color: var(--text-white);
+    height: 4rem;
+    min-width: 10rem;
+    box-shadow: 0px 2px 0px var(--text-c0);
+    &.mr_3{
+      margin-right: 3.2rem;
+    }
+  }
+  &.action_primary {
+    background: var(--text-be);
+    color: var(--text-white);
+    height: 4rem;
+    min-width: 10rem;
+    box-shadow: 0px 2px 0px var(--text-93);
+    &.ml_6{
+      margin-left: 1.6rem;
+      @media (max-width: 571px){
+        margin-left: 0px;
+      }
+    }
   }
   &.action_mt {
     margin-top: 1.1rem;
@@ -351,6 +390,19 @@
     align-items: center;
     font-size: 1.8rem;
     color: var(--text-01);
+  }
+}
+
+.btn_primary {
+  background: var(--text-8e);
+  color: var(--text-white);
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  box-shadow: 0px 3px var(--text-5b);
+  &.min_sizer {
+    min-width: 24rem;
+    height: 4rem;
   }
 }
 // ....................Button Components .......................End
@@ -965,6 +1017,7 @@
       color: var(--text-48);
       border: 1px solid var(--text-e2);
       font-size: 1.4rem;
+     
       &:first-child {
         margin-right: 1rem;
       }

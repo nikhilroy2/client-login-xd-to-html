@@ -267,6 +267,11 @@
   @media (max-width: 600px) {
     width: 12rem;
   }
+  &.btn_orange {
+    background: var(--text-1e);
+    color: var(--text-white);
+    box-shadow: 0px 2px 0px var(--text-c0);
+  }
 }
 
 .btn_light_gray {
@@ -531,11 +536,16 @@
 // ...................Content list Components. .................End
 
 // ....................Table Components ........................
-.section_table_wrapper {
+.section_table_wrapper  {
   background: rgba(112, 112, 112, 0.5);
   position: relative;
   user-select: none;
   margin-bottom: 10.9rem;
+  &.td_even_width{
+    td:nth-child(even){
+      width: 24.2rem;
+    }
+  }
   @media (max-width: 600px) {
     margin-bottom: 5rem;
   }
@@ -552,7 +562,16 @@
       border: none;
       padding-bottom: 3.4rem;
       white-space: nowrap;
-
+      vertical-align: middle;
+      .table_input_control {
+        width: 5.6rem;
+        height: 4rem;
+        border: 1px solid var(--text-cc);
+        display: inline-block;
+        box-shadow: none;
+        outline: none;
+        text-align: center;
+      }
       @media (max-width: 1199px) {
         padding: 0.5rem;
         padding-bottom: 2rem;

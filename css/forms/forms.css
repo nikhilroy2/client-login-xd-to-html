@@ -67,6 +67,12 @@
   }
 }
 
+.form_container .form-group .form-control.h_40_sizer {
+  height: 4rem;
+  padding: .8rem 1.2rem;
+  font-size: 1.8rem;
+}
+
 @media (max-width: 400px) {
   .form_container .form-group .select_sm_control {
     width: 100%;

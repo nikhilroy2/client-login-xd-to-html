@@ -39,6 +39,7 @@
       font-weight: bold;
       font-family: yugothib;
     }
+    
     input,
     select {
       border: 1px solid var(--text-cc) !important;
@@ -52,6 +53,11 @@
       @media (max-width: 600px) {
         padding: 0.3rem 1rem;
       }
+    }
+    .form-control.h_40_sizer{
+      height: 4rem;
+      padding: .8rem 1.2rem;
+      font-size: 1.8rem;
     }
     .select_sm_control{
       @media (max-width: 400px) {

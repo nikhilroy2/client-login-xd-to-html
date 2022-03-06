@@ -88,6 +88,19 @@
     font-size: 1.6rem;
   }
 }
+
+.csv_content_wrapper {
+  font-family: yugothib;
+  .csv_upload_wrapper {
+    margin-bottom: 1.6rem;
+    > * {
+      margin-right: 1.6rem;
+    }
+    .csv_uploader_output{
+      font-weight: normal;
+    }
+  }
+}
 // ....................Section title Components .................End
 
 // ....................Button Components .......................
@@ -126,6 +139,29 @@
       min-width: 12rem;
     }
   }
+  &.client_action_primary {
+    box-shadow: 0px 2px 0px var(--text-70);
+    height: 3.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 18.5rem;
+    @media (max-width: 600px) {
+      min-width: 10.5rem;
+    }
+  }
+  &.client_action_light {
+    background: var(--text-a5);
+    box-shadow: 0px 2px 0px var(--text-70);
+    height: 3.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 18.5rem;
+    @media (max-width: 600px) {
+      min-width: 10.5rem;
+    }
+  }
   &.lg_size {
     min-width: 22rem;
   }
@@ -158,6 +194,20 @@
   color: var(--text-be);
   height: 6.4rem;
 }
+
+.btn_light_3 {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background: var(--text-e8);
+  font-size: 1.6rem;
+  width: 9.8rem;
+  font-weight: bold;
+  color: var(--text-01);
+  height: 4rem;
+  font-family: yugothib;
+}
+
 .btn_dark {
   text-decoration: none;
   background: var(--text-32);
@@ -281,6 +331,26 @@
   @media (max-width: 600px) {
     padding: 1rem;
     font-size: 1.8rem;
+  }
+}
+
+.csv_uploader_btn {
+  min-width: 16rem;
+  height: 4rem;
+  background: linear-gradient(#fff 0%, #d6d6d6 100%);
+  border: 1px solid #ccc;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  label {
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: var(--text-01);
   }
 }
 // ....................Button Components .......................End
